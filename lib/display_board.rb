@@ -3,3 +3,11 @@ def display_board
   cell = "   "
   seperator = "|"
   lines = "-----------"
+
+
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+end
